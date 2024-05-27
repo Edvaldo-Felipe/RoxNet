@@ -60,9 +60,9 @@ nav{
     border-radius: 5px;
 }
 
-.navbar-items .default-btn:hover{
+.default-btn:hover{
     background-color: #2cc76a;
-    color: #fff;
+    color: #ccc;
 }
 
 /*Logo*/
@@ -93,4 +93,33 @@ nav{
 
 .main-banner p{
     font-size: 32px;
+}
+
+/*Beneficios*/
+.services-container{
+    padding: 5rem 0;
+}
+
+.services-container ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services-container li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.img-services{
+    margin-bottom: 15px;
+    transition: 0.5s;
+}
+
+.img-services:hover{
+    scale: 0.8;
+    
 }
