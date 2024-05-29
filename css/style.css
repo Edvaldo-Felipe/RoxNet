@@ -133,3 +133,100 @@ nav{
     margin-right: 5.5%;
 
 }
+
+/* Prices and plans*/
+.pricing-container{
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.pricing-container h2{
+    font-size: 36px;
+}
+
+.pricing-container p{
+    font-size: 20px;
+}
+
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;
+}
+
+.plan{
+    flex: 1;
+    max-width: 275px;
+    margin: 0 20px;
+}
+
+.plan ul{
+    padding: 0;
+}
+
+.plan li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    background-color: #e8e9ea;
+    color: #333;
+}
+
+.price,
+.price-recomended{
+    width: 120px;
+    height: 120px;
+    background-color: #01602a;;
+    border-radius: 50%;
+    line-height: 120px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto -50px;
+    position: relative;
+    display: block;
+}
+
+.plan-name{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background-color:#202b34;
+    padding: 50px 0;
+    display: block;
+}
+
+.plan-btn{
+    border: 1px solid  #01602a;;
+    color:  #01602a;;
+    cursor: pointer;
+    height: 75px;
+    line-height: 75px;
+    display: block;
+    border-radius: 0.4rem;
+}
+
+.plan-btn:hover{
+    background-color: #01602a;;
+    color: #fff;
+}
+
+.price-recomended{
+    background-color: #f45c57;
+}
+
+.plan-btn-recomended{
+    border: 1px solid  #f45c57;
+    color:  #f45c57;
+    cursor: pointer;
+    height: 75px;
+    line-height: 75px;
+    display: block;
+    border-radius: 0.4rem;
+}
+
+.plan-btn-recomended:hover{
+    background-color:  #f45c57;
+    color: #fff;
+}
